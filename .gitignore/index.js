@@ -4,14 +4,14 @@ var prefix = "p";
 
 bot.login(process.env.TOKEN);
 
-client.on('message', message => {
+bot.on('message', message => {
     if(message.content === "phelp"){
         message.reply("Paradise In Beta")
         console.log('Le Bot est operationnel !');
     }
 });
 
-client.on('message', function (message) {
+bot.on('message', function (message) {
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
  
@@ -25,7 +25,7 @@ client.on('message', function (message) {
     }
 })
 
-client.on('message', function (message) {
+bot.on('message', function (message) {
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
  
@@ -39,7 +39,7 @@ client.on('message', function (message) {
     }
 })
 
-client.on('message', function (message) {
+bot.on('message', function (message) {
     if (!message.guild) return
     let args = message.content.trim().split(/ +/g)
  
