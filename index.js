@@ -6,7 +6,7 @@ var prefix = "p";
 
 
 
-bot.login(process.env.TOKEN);
+bot.login("NTk3MTMxNzUyNjM2NDE2MDAw.XSH6Bw.Cz1OEQUFa63y6KLVwNOLD1XTCiY");
 
 
 
