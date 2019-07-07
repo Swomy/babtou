@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "p";
 
-client.login(process.env.TOKEN);
+bot.login(process.env.TOKEN);
 
 client.on('message', message => {
     if(message.content === "phelp"){
